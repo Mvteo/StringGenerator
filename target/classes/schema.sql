@@ -1,0 +1,10 @@
+DROP TABLE IF EXISTS REQUEST;
+
+CREATE TABLE REQUEST
+(
+    id      INT AUTO_INCREMENT PRIMARY KEY,
+    min    INT NOT NULL,
+    max    INT NOT NULL,
+    numberOfStrings    INT NOT NULL,
+    chars VARCHAR(250) NOT NULL
+);
