@@ -26,3 +26,14 @@ To run tests, use the method:
 ```
 mvn test
 ```
+
+# Example JSON
+
+```
+{
+    "numberOfStrings": 20000,
+    "min": 2,
+    "max": 17,
+    "chars": "abcdefg"
+}
+```
