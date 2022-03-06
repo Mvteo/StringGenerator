@@ -8,10 +8,10 @@ The application generates random unique lines of text with the given parameters:
 
 # End-points
 
-- /generate: generate file with given parameters in JSON
-- /file/{fileName}: gets the file with the given name 
-- /content/{fileName}: gets the contents of a file with a given name
-- /jobs: get the number of currently running processes
+- `/generate`: generate file with given parameters in JSON
+- `/file/{fileName}`: gets the file with the given name 
+- `/content/{fileName}`: gets the contents of a file with a given name
+- `/jobs`: get the number of currently running processes
 
 # Commands
 
